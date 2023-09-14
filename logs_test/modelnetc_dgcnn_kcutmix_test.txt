@@ -1,0 +1,71 @@
+2023-09-14 03:07:19,617 - Model - INFO - PARAMETER ...
+2023-09-14 03:07:19,617 - Model - INFO - Namespace(augment=1, batch_size=16, beta=1, cutmix_prob=0.5, data='modelnetc', epochs=300, feature_transform=1, lambda_ft=0.001, lr=0.001, model='dgcnn_kcutmix', name='test', normal=False, note='', num_points=1024, optimizer='Adam', resume='/', seed=0)
+2023-09-14 03:08:46,590 - Model - INFO - PARAMETER ...
+2023-09-14 03:08:46,613 - Model - INFO - Namespace(augment=1, batch_size=16, beta=1, cutmix_prob=0.5, data='modelnetc', epochs=300, feature_transform=1, lambda_ft=0.001, lr=0.001, model='dgcnn_kcutmix', name='test', normal=False, note='', num_points=1024, optimizer='Adam', resume='/', seed=0)
+2023-09-14 03:12:29,088 - Model - INFO - PARAMETER ...
+2023-09-14 03:12:29,109 - Model - INFO - Namespace(augment=1, batch_size=16, beta=1, cutmix_prob=0.5, data='modelnetc', epochs=300, feature_transform=1, lambda_ft=0.001, lr=0.001, model='dgcnn_kcutmix', name='test', normal=False, note='', num_points=1024, optimizer='Adam', resume='/', seed=0)
+2023-09-14 03:14:58,971 - Model - INFO - PARAMETER ...
+2023-09-14 03:14:58,985 - Model - INFO - Namespace(augment=1, batch_size=16, beta=1, cutmix_prob=0.5, data='modelnetc', epochs=300, feature_transform=1, lambda_ft=0.001, lr=0.001, model='dgcnn_kcutmix', name='test', normal=False, note='', num_points=1024, optimizer='Adam', resume='/', seed=0)
+2023-09-14 03:16:55,383 - Model - INFO - PARAMETER ...
+2023-09-14 03:16:55,411 - Model - INFO - Namespace(augment=1, batch_size=16, beta=1, cutmix_prob=0.5, data='modelnetc', epochs=300, feature_transform=1, lambda_ft=0.001, lr=0.001, model='dgcnn_kcutmix', name='test', normal=False, note='', num_points=1024, optimizer='Adam', resume='/', seed=0)
+2023-09-14 03:17:56,403 - Model - INFO - data_uniform_1: Test Accuracy: 89.708266
+2023-09-14 03:18:09,491 - Model - INFO - data_uniform_2: Test Accuracy: 88.533225
+2023-09-14 03:18:20,508 - Model - INFO - data_uniform_3: Test Accuracy: 86.750405
+2023-09-14 03:18:36,544 - Model - INFO - data_uniform_4: Test Accuracy: 81.928687
+2023-09-14 03:18:48,817 - Model - INFO - data_uniform_5: Test Accuracy: 76.134522
+2023-09-14 03:19:00,686 - Model - INFO - data_gaussian_1: Test Accuracy: 89.141005
+2023-09-14 03:19:13,290 - Model - INFO - data_gaussian_2: Test Accuracy: 87.236629
+2023-09-14 03:19:26,303 - Model - INFO - data_gaussian_3: Test Accuracy: 84.278768
+2023-09-14 03:19:39,936 - Model - INFO - data_gaussian_4: Test Accuracy: 79.294976
+2023-09-14 03:19:52,496 - Model - INFO - data_gaussian_5: Test Accuracy: 73.581848
+2023-09-14 03:20:08,710 - Model - INFO - data_background_1: Test Accuracy: 89.910859
+2023-09-14 03:20:22,647 - Model - INFO - data_background_2: Test Accuracy: 89.546191
+2023-09-14 03:20:38,001 - Model - INFO - data_background_3: Test Accuracy: 89.424635
+2023-09-14 03:20:49,301 - Model - INFO - data_background_4: Test Accuracy: 89.586710
+2023-09-14 03:21:05,249 - Model - INFO - data_background_5: Test Accuracy: 89.465154
+2023-09-14 03:21:17,583 - Model - INFO - data_impulse_1: Test Accuracy: 89.222042
+2023-09-14 03:21:31,124 - Model - INFO - data_impulse_2: Test Accuracy: 87.682334
+2023-09-14 03:21:45,137 - Model - INFO - data_impulse_3: Test Accuracy: 87.520259
+2023-09-14 03:21:58,423 - Model - INFO - data_impulse_4: Test Accuracy: 85.534846
+2023-09-14 03:22:12,252 - Model - INFO - data_impulse_5: Test Accuracy: 81.807131
+2023-09-14 03:22:29,876 - Model - INFO - data_upsampling_1: Test Accuracy: 88.330632
+2023-09-14 03:22:43,934 - Model - INFO - data_upsampling_2: Test Accuracy: 87.520259
+2023-09-14 03:23:00,674 - Model - INFO - data_upsampling_3: Test Accuracy: 85.696921
+2023-09-14 03:23:18,278 - Model - INFO - data_upsampling_4: Test Accuracy: 82.658023
+2023-09-14 03:23:40,193 - Model - INFO - data_upsampling_5: Test Accuracy: 72.001621
+2023-09-14 03:23:54,307 - Model - INFO - data_shear_1: Test Accuracy: 90.437601
+2023-09-14 03:24:07,594 - Model - INFO - data_shear_2: Test Accuracy: 89.870340
+2023-09-14 03:24:20,326 - Model - INFO - data_shear_3: Test Accuracy: 88.290113
+2023-09-14 03:24:35,039 - Model - INFO - data_shear_4: Test Accuracy: 86.426256
+2023-09-14 03:24:48,175 - Model - INFO - data_shear_5: Test Accuracy: 84.602917
+2023-09-14 03:25:01,554 - Model - INFO - data_rotation_1: Test Accuracy: 90.478120
+2023-09-14 03:25:13,121 - Model - INFO - data_rotation_2: Test Accuracy: 90.072934
+2023-09-14 03:25:24,466 - Model - INFO - data_rotation_3: Test Accuracy: 87.601297
+2023-09-14 03:25:36,036 - Model - INFO - data_rotation_4: Test Accuracy: 82.536467
+2023-09-14 03:25:46,677 - Model - INFO - data_rotation_5: Test Accuracy: 66.572123
+2023-09-14 03:25:58,706 - Model - INFO - data_cutout_1: Test Accuracy: 89.829822
+2023-09-14 03:26:09,744 - Model - INFO - data_cutout_2: Test Accuracy: 89.384117
+2023-09-14 03:26:22,331 - Model - INFO - data_cutout_3: Test Accuracy: 88.452188
+2023-09-14 03:26:34,735 - Model - INFO - data_cutout_4: Test Accuracy: 88.006483
+2023-09-14 03:26:45,841 - Model - INFO - data_cutout_5: Test Accuracy: 85.372771
+2023-09-14 03:26:57,602 - Model - INFO - data_density_1: Test Accuracy: 90.153971
+2023-09-14 03:27:09,546 - Model - INFO - data_density_2: Test Accuracy: 89.222042
+2023-09-14 03:27:21,623 - Model - INFO - data_density_3: Test Accuracy: 87.803890
+2023-09-14 03:27:33,309 - Model - INFO - data_density_4: Test Accuracy: 86.547812
+2023-09-14 03:27:44,705 - Model - INFO - data_density_5: Test Accuracy: 84.440843
+2023-09-14 03:27:56,612 - Model - INFO - data_density_inc_1: Test Accuracy: 88.654781
+2023-09-14 03:28:10,094 - Model - INFO - data_density_inc_2: Test Accuracy: 88.573744
+2023-09-14 03:28:23,866 - Model - INFO - data_density_inc_3: Test Accuracy: 88.776337
+2023-09-14 03:28:35,968 - Model - INFO - data_density_inc_4: Test Accuracy: 87.925446
+2023-09-14 03:28:48,930 - Model - INFO - data_density_inc_5: Test Accuracy: 86.790924
+2023-09-14 03:29:00,936 - Model - INFO - data_distortion_1: Test Accuracy: 90.397083
+2023-09-14 03:29:14,044 - Model - INFO - data_distortion_2: Test Accuracy: 89.789303
+2023-09-14 03:29:25,436 - Model - INFO - data_distortion_3: Test Accuracy: 88.249595
+2023-09-14 03:29:40,081 - Model - INFO - data_distortion_4: Test Accuracy: 86.223663
+2023-09-14 03:29:52,702 - Model - INFO - data_distortion_5: Test Accuracy: 82.495948
+2023-09-14 03:30:05,548 - Model - INFO - data_distortion_rbf_1: Test Accuracy: 90.518639
+2023-09-14 03:30:16,292 - Model - INFO - data_distortion_rbf_2: Test Accuracy: 89.303079
+2023-09-14 03:30:28,017 - Model - INFO - data_distortion_rbf_3: Test Accuracy: 87.925446
+2023-09-14 03:30:38,969 - Model - INFO - data_distortion_rbf_4: Test Accuracy: 84.562399
+2023-09-14 03:30:48,656 - Model - INFO - data_distortion_rbf_5: Test Accuracy: 79.619125
+2023-09-14 03:30:57,136 - Model - INFO - data_distortion_rbf_inv_1: Test Accuracy: 90.599676

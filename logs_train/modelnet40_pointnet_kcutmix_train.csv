@@ -1,0 +1,5 @@
+model type,data set,seed,train batch size,number of points in one batch,number of epochs,optimizer,learning rate,resume checkpoint path,feature transform,lambda for feature transform regularizer,data augment
+pointnet_kcutmix,modelnet40,8033,16,1024,300,Adam,0.001,/,True,0.001,True
+Note,
+""
+Epoch,Train Loss,Train Acc,Test Loss,Test Acc,learning Rate
